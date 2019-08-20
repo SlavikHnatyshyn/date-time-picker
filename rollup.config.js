@@ -6,7 +6,7 @@ const rxPaths = require('rxjs/_esm5/path-mapping');
 
 export default {
     output: {
-        format: 'umd',
+        format: 'cjs',
         name: 'ng-pick-datetime',
         globals: {
             '@angular/cdk': 'vendor._angular_cdk',
